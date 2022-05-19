@@ -13,7 +13,7 @@ const uniformDist = async (params, multiplicity) => {
 const normalDist = async (params, multiplicity) => {
     
     // generates a value with normal distribution using Box-Muller transform
-    function randomNormal(min, max, skew) {
+    function randomNormal(min, max, skew=1) {
         let u = 0, v = 0;
         while(u === 0) u = Math.random(); // convert [0,1) to (0,1)
         while(v === 0) v = Math.random();

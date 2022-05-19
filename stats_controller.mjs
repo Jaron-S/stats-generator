@@ -7,7 +7,8 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
+app.post('/', (req, res) => {
+    console.log(`Request for ${req.body.distribution} distribution from ${req.headers['user-agent']}`)
     let result = {}
 
     // uniform distribution data
