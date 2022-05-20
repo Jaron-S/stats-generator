@@ -1,5 +1,5 @@
 # stats-generator
-v 1.0.0
+### v 1.0.0
 This microservice generates any number of sample data points with uniform or normal distribution.
 
 It listens on `port 8000`, and expects an `HTTP POST` request to the root directory and returns a json object containing the data.
