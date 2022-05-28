@@ -15,4 +15,4 @@ multiplicity: <positive int>
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-Once installed run, use the command `npm start` to start the service.
+Once installed, use the command `npm start` to start the service.
